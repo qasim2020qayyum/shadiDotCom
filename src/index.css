@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+.active{
+    color:teal !important;
+  }
+  @media only screen and (max-width: 600px) {
+    .about-us{
+      padding: 0 1.5rem !important;
+    }
+    .meet-our-members{
+      padding: 0 !important;
+      /* width: 90% !important; */
+    }
+    .meet-our-member{
+      margin: 4rem 1rem !important;
+      /* padding: 0 !important; */
+    }
+  }
+  h1{
+    font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif !important;
+  }
